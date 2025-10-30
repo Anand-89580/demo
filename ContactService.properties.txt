@@ -1,0 +1,4 @@
+custom.message=Hello from Contact Service (via Config Server)!
+spring.datasource.url=jdbc:mysql://localhost:3306/contactdb
+spring.datasource.username=root
+spring.datasource.password=Admin@123
