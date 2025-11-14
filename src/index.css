@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* REMOVE ALL VITE DEFAULT STYLES */
+/* CLEAN SLATE FOR TAILWIND */
+
+/* Make body normal */
+body {
+  margin: 0;
+  background-color: #f9fafb; /* light gray */
+  color: #111827;           /* neutral text */
+}
+
+/* Remove global button override */
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Let Tailwind handle fonts */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
